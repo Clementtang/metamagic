@@ -1,5 +1,7 @@
 # Metamagic
 
+[繁體中文](README.zh-TW.md)
+
 A Claude Code command for quickly optimizing prompts with systematic analysis and clipboard integration.
 
 > _In D&D, Metamagic allows sorcerers to alter spells. Here, it alters your prompts._
