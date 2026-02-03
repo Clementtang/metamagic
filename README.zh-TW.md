@@ -58,15 +58,6 @@ git clone https://github.com/Clementtang/metamagic.git ~/metamagic
 - 「用英文重寫」
 - 「針對 Claude 優化」
 
-## 模板
-
-參考模板放在 `templates/` 目錄：
-
-- `clarity.md` - 專注於清晰度改進
-- `specific.md` - 增加具體細節和限制條件
-- `examples.md` - 補充輸入/輸出範例
-- `structure.md` - 改善組織結構
-
 ## 系統需求
 
 - [Claude Code](https://claude.ai/code)

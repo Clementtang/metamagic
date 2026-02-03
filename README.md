@@ -60,15 +60,6 @@ After receiving results, you can continue refining:
 - "Rewrite in English"
 - "Optimize for Claude"
 
-## Templates
-
-Reference templates are available in `templates/`:
-
-- `clarity.md` - Focus on clarity improvements
-- `specific.md` - Add specificity and constraints
-- `examples.md` - Add input/output examples
-- `structure.md` - Improve organization
-
 ## Requirements
 
 - [Claude Code](https://claude.ai/code)
