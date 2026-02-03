@@ -21,13 +21,13 @@ git clone https://github.com/Clementtang/metamagic.git ~/metamagic
 
 ```bash
 # 優化剪貼簿內容
-/optimize
+/op
 
 # 優化指定文字
-/optimize "你的 prompt"
+/op "你的 prompt"
 
 # 優化檔案內容
-/optimize --file path/to/prompt.md
+/op --file path/to/prompt.md
 ```
 
 ## 輸出格式

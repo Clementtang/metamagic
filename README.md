@@ -23,13 +23,13 @@ git clone https://github.com/Clementtang/metamagic.git ~/metamagic
 
 ```bash
 # Optimize clipboard content
-/optimize
+/op
 
 # Optimize specific text
-/optimize "your prompt here"
+/op "your prompt here"
 
 # Optimize from file
-/optimize --file path/to/prompt.md
+/op --file path/to/prompt.md
 ```
 
 ## Output Format

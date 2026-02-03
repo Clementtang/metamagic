@@ -4,8 +4,8 @@
 
 set -e
 
-SOURCE="$HOME/metamagic/optimize.md"
-TARGET="$HOME/.claude/commands/optimize.md"
+SOURCE="$HOME/metamagic/op.md"
+TARGET="$HOME/.claude/commands/op.md"
 
 if [ ! -f "$SOURCE" ]; then
     echo "錯誤：找不到 $SOURCE"
