@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.1] - 2026-06-25
+
+### Fixed
+
+- Made clipboard copy a mandatory, verifiable step (步驟 4) so `/op` no longer silently skips it
+- Switched copy mechanism to a quoted heredoc (`<<'EOF'`) plus `pbcopy < file`, preventing shell escaping issues where backticks, `$`, and quotes in the optimized prompt caused truncation or command injection into the clipboard
+
 ## [1.1.0] - 2025-02-03
 
 ### Changed
