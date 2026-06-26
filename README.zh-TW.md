@@ -1,12 +1,23 @@
+<div align="center">
+
 # Metamagic
+
+[English](README.md)
+
+![license MIT](https://img.shields.io/badge/license-MIT-green)
+![Claude Code](https://img.shields.io/badge/Claude%20Code-command-D97757?logo=anthropic&logoColor=white)
+![platform](https://img.shields.io/badge/platform-macOS%20%7C%20Linux%20%7C%20Windows-blue)
+![shell Bash](https://img.shields.io/badge/shell-Bash-4EAA25?logo=gnubash&logoColor=white)
 
 一個用於快速優化 prompt 的 Claude Code 指令，具備系統化分析和剪貼簿整合功能。
 
 > _在 D&D 中，Metamagic 讓術士能夠改變法術。在這裡，它改變你的 prompt。_
 
+</div>
+
 ## 功能特色
 
-- **系統化分析** - 從 5 個維度評估 prompt：清晰度、完整性、結構性、範例、角色定義
+- **系統化分析** - 從 7 個維度評估 prompt：清晰度、完整性、結構性、輸出格式、範例、思考引導、角色定義
 - **剪貼簿整合** - 自動讀取和寫入剪貼簿（macOS、Linux、Windows/WSL）
 - **迭代式改進** - 可繼續對話進一步調整結果
 
