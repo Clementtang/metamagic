@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.2.0] - 2026-06-26
+
+### Added
+
+- Cross-platform clipboard support: Linux (`wl-copy`/`wl-paste`, `xclip`) and Windows/WSL (`clip`/`Get-Clipboard`) in addition to macOS
+- `install.sh --link` option to symlink instead of copy, so repo edits take effect immediately
+
+### Changed
+
+- Strengthened the optimization engine to align with Anthropic prompt engineering best practices (XML structuring, explicit instructions, output-format specs, multishot examples, chain-of-thought, role/system prompt)
+- `install.sh` now derives its source path from the script location, so it works regardless of clone directory
+- Reworded the command `description` to lead with when-to-use (CSO style)
+- Clipboard is now read only when no argument is provided, avoiding pulling unrelated clipboard content into context
+
 ## [1.1.1] - 2026-06-25
 
 ### Fixed

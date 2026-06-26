@@ -9,7 +9,7 @@ A Claude Code command for quickly optimizing prompts with systematic analysis an
 ## Features
 
 - **Systematic Analysis** - Evaluates prompts across 5 dimensions: clarity, completeness, structure, examples, and role definition
-- **Clipboard Integration** - Reads from and writes to clipboard automatically (macOS)
+- **Clipboard Integration** - Reads from and writes to clipboard automatically (macOS, Linux, Windows/WSL)
 - **Iterative Refinement** - Continue the conversation to further adjust results
 
 ## Installation
@@ -18,6 +18,8 @@ A Claude Code command for quickly optimizing prompts with systematic analysis an
 git clone https://github.com/Clementtang/metamagic.git ~/metamagic
 ~/metamagic/install.sh
 ```
+
+Use `install.sh --link` to symlink instead of copy, so edits to the repo take effect immediately.
 
 ## Usage
 
@@ -63,7 +65,7 @@ After receiving results, you can continue refining:
 ## Requirements
 
 - [Claude Code](https://claude.ai/code)
-- macOS (for clipboard integration via `pbcopy`/`pbpaste`)
+- A clipboard tool for your OS: macOS `pbcopy`/`pbpaste` (built in), Linux `wl-copy`/`wl-paste` or `xclip`, Windows/WSL `clip`/`Get-Clipboard`
 
 ## License
 

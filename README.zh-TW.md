@@ -7,7 +7,7 @@
 ## 功能特色
 
 - **系統化分析** - 從 5 個維度評估 prompt：清晰度、完整性、結構性、範例、角色定義
-- **剪貼簿整合** - 自動讀取和寫入剪貼簿（macOS）
+- **剪貼簿整合** - 自動讀取和寫入剪貼簿（macOS、Linux、Windows/WSL）
 - **迭代式改進** - 可繼續對話進一步調整結果
 
 ## 安裝
@@ -16,6 +16,8 @@
 git clone https://github.com/Clementtang/metamagic.git ~/metamagic
 ~/metamagic/install.sh
 ```
+
+用 `install.sh --link` 可改成 symlink 而非複製，這樣改 repo 會即時生效。
 
 ## 使用方式
 
@@ -61,7 +63,7 @@ git clone https://github.com/Clementtang/metamagic.git ~/metamagic
 ## 系統需求
 
 - [Claude Code](https://claude.ai/code)
-- macOS（剪貼簿整合需要 `pbcopy`/`pbpaste`）
+- 對應作業系統的剪貼簿工具：macOS 內建 `pbcopy`/`pbpaste`、Linux 用 `wl-copy`/`wl-paste` 或 `xclip`、Windows/WSL 用 `clip`/`Get-Clipboard`
 
 ## 授權
 
