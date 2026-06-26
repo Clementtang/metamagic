@@ -71,6 +71,14 @@ git clone https://github.com/Clementtang/metamagic.git ~/metamagic
 - 「用英文重寫」
 - 「針對 Claude 優化」
 
+## 提示：搭配剪貼簿管理工具
+
+每次優化結果也會印在對話裡，所以剪貼簿被覆寫並不會遺失內容——但每次 `/op`（與每次迭代調整）都會取代剪貼簿上的東西。如果你經常迭代、想同時保留多個版本，可搭配剪貼簿管理工具：
+
+- **macOS** — [Maccy](https://maccy.app)（免費開源）或 [Paste](https://pasteapp.io)
+- **Windows** — 內建剪貼簿歷史（`Win` + `V`）
+- **Linux** — [CopyQ](https://hluk.github.io/CopyQ/)
+
 ## 系統需求
 
 - [Claude Code](https://claude.ai/code)

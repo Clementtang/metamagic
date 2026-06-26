@@ -71,6 +71,14 @@ After receiving results, you can continue refining:
 - "Rewrite in English"
 - "Optimize for Claude"
 
+## Tip: Pair With a Clipboard Manager
+
+Every result is also printed in the conversation, so an overwritten clipboard never loses content — but each `/op` (and each refinement) replaces what's on your clipboard. If you iterate often and want to keep several versions around, pair Metamagic with a clipboard manager:
+
+- **macOS** — [Maccy](https://maccy.app) (free, open source) or [Paste](https://pasteapp.io)
+- **Windows** — built-in clipboard history (`Win` + `V`)
+- **Linux** — [CopyQ](https://hluk.github.io/CopyQ/)
+
 ## Requirements
 
 - [Claude Code](https://claude.ai/code)
