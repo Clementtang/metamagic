@@ -17,7 +17,7 @@ A Claude Code command for quickly optimizing prompts with systematic analysis an
 
 ## Features
 
-- **Systematic Analysis** - Evaluates prompts across 7 dimensions: clarity, completeness, structure, output format, examples, chain-of-thought, and role definition
+- **Systematic Analysis** - Evaluates prompts across 7 dimensions: clarity, completeness, structure, output format, examples, reasoning depth, and role definition
 - **Clipboard Integration** - Reads from and writes to clipboard automatically (macOS, Linux, Windows/WSL)
 - **Iterative Refinement** - Continue the conversation to further adjust results
 

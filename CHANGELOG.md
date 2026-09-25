@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.3.0] - 2026-09-25
+
+### Changed
+
+- Replaced the all-caps CRITICAL block with a plain instruction and its reason; probed on Claude Opus 5.5, question-like input is still optimized instead of answered
+- "Chain-of-thought" dimension is now "reasoning depth": no "think step by step" for targets with built-in reasoning, since depth is set by effort and newer Claude models may refuse requests to reproduce reasoning
+- Multishot guidance asks for several deliberately varied examples labeled illustrative, instead of 1-3 examples
+
 ## [1.2.0] - 2026-06-26
 
 ### Added
